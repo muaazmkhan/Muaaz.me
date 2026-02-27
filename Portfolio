@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muaaz Khan | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { background-color: #030303; color: #f0f0f0; font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glass-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.07); backdrop-filter: blur(12px); border-radius: 16px; transition: all 0.4s ease; }
+        .glass-card:hover { background: rgba(255, 255, 255, 0.05); border-color: #3b82f6; transform: translateY(-5px); }
+        .text-gradient { background: linear-gradient(to right, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .status-pill { background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); color: #60a5fa; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-[#030303]/80 backdrop-blur-md border-b border-white/5">
+        <div class="text-xl font-extrabold tracking-tighter">MUA<span class="text-blue-500">AZ</span></div>
+        <div class="hidden md:flex space-x-8 text-xs font-semibold uppercase tracking-widest text-gray-400">
+            <a href="#about" class="hover:text-white transition">About</a>
+            <a href="#projects" class="hover:text-white transition">Systems</a>
+            <a href="#experience" class="hover:text-white transition">History</a>
+        </div>
+        <a href="mailto:Muaazmkhan@gmail.com" class="text-xs font-bold px-5 py-2 rounded-full border border-white/10 hover:bg-white hover:text-black transition uppercase">Contact</a>
+    </nav>
+
+    <section id="about" class="min-h-screen flex flex-col justify-center items-center px-6 text-center">
+        <div class="status-pill px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] mb-8">
+            Currently: Erasmus+ @ UDC Spain 🇪🇸
+        </div>
+        <h1 class="text-5xl md:text-8xl font-extrabold mb-6 tracking-tight">Muaaz Muhammad Khan</h1>
+        <p class="text-xl md:text-2xl text-gray-400 max-w-3xl font-light leading-relaxed">
+            Data-Focused Marketing Specialist. <br>
+            <span class="text-white font-medium">Navigating Red Oceans with Data-Precision.</span>
+        </p>
+        <p class="mt-6 text-blue-400/80 italic font-medium max-w-xl">
+            "Predicting Trends & Testing Innovations to Make Brands Standout."
+        </p>
+        <div class="mt-12 flex gap-4">
+            <a href="https://www.linkedin.com/in/muaaz-khan-127b19224/" target="_blank" class="p-3 glass-card hover:text-blue-400"><i class="fab fa-linkedin text-2xl"></i></a>
+            <a href="mailto:Muaazmkhan@gmail.com" class="p-3 glass-card hover:text-red-400"><i class="fas fa-envelope text-2xl"></i></a>
+        </div>
+    </section>
+
+    <section id="experience" class="max-w-6xl mx-auto px-6 py-24">
+        <h2 class="text-xs font-bold text-blue-500 uppercase tracking-[0.4em] mb-12">Deployment_History</h2>
+        <div class="space-y-6">
+            <div class="glass-card p-8">
+                <div class="flex flex-col md:flex-row justify-between mb-4">
+                    <h3 class="text-2xl font-bold">Regional Account Executive</h3>
+                    <span class="text-blue-500 font-mono text-sm">2025 - 2026</span>
+                </div>
+                <p class="text-gray-300 font-semibold mb-2">Swipe Savvy Rewards — Florida, USA</p>
+                <ul class="text-gray-400 text-sm space-y-2 list-disc pl-5">
+                    <li>Developed B2B Customer Dashboard using <span class="text-white">Power BI</span> for sales cycle tracking.</li>
+                    <li>Executed lead-gen via <span class="text-white">Apollo</span> and Python-based trend analysis.</li>
+                    <li>Optimized B2C marketing spend by identifying hidden patterns in social engagement data.</li>
+                </ul>
+            </div>
+
+            <div class="glass-card p-8">
+                <div class="flex flex-col md:flex-row justify-between mb-4">
+                    <h3 class="text-2xl font-bold">Sales & Business Development</h3>
+                    <span class="text-blue-500 font-mono text-sm">2023 - 2024</span>
+                </div>
+                <p class="text-gray-300 font-semibold mb-2">Netmera — Istanbul, Turkey</p>
+                <ul class="text-gray-400 text-sm space-y-2 list-disc pl-5">
+                    <li>Drove B2B SaaS growth in MENA & South Asia via Sensor Tower market intelligence.</li>
+                    <li>Managed automated LinkedIn outreach and performance tracking for conversion optimization.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-24">
+        <h2 class="text-xs font-bold text-blue-500 uppercase tracking-[0.4em] mb-12">Product_Innovations</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="glass-card p-8">
+                <div class="text-blue-500 mb-4 text-2xl"><i class="fas fa-shirt"></i></div>
+                <h3 class="text-xl font-bold mb-2">Dressly</h3>
+                <p class="text-gray-400 text-sm">AI Dressing Assistant predicting attire based on weather datasets and wardrobe inventory.</p>
+            </div>
+            <div class="glass-card p-8">
+                <div class="text-blue-500 mb-4 text-2xl"><i class="fas fa-users-rectangle"></i></div>
+                <h3 class="text-xl font-bold mb-2">Qless</h3>
+                <p class="text-gray-400 text-sm">Virtual Queue Management System designed for institutional operational efficiency.</p>
+            </div>
+            <div class="glass-card p-8">
+                <div class="text-blue-500 mb-4 text-2xl"><i class="fas fa-wallet"></i></div>
+                <h3 class="text-xl font-bold mb-2">FlexiAssist</h3>
+                <p class="text-gray-400 text-sm">A personal financial engine for smart expense tracking and data-driven budgeting.</p>
+            </div>
+            <div class="glass-card p-8">
+                <div class="text-blue-500 mb-4 text-2xl"><i class="fas fa-eye"></i></div>
+                <h3 class="text-xl font-bold mb-2">Beacon Eye</h3>
+                <p class="text-gray-400 text-sm">Security-focused browser extension protecting children from digital threats.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-24 border-t border-white/5">
+        <div class="grid md:grid-cols-3 gap-12">
+            <div>
+                <h4 class="text-white font-bold mb-6">Marketing Stack</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-mono">
+                    <span class="px-3 py-1 bg-white/5 rounded">Apollo</span>
+                    <span class="px-3 py-1 bg-white/5 rounded">Sensor Tower</span>
+                    <span class="px-3 py-1 bg-white/5 rounded">Google Ads</span>
+                    <span class="px-3 py-1 bg-white/5 rounded">Meta Campaigns</span>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Data & Logic</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-mono">
+                    <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded">Python</span>
+                    <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded">Power BI</span>
+                    <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded">SQL</span>
+                    <span class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded">KNIME</span>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Leadership</h4>
+                <p class="text-gray-400 text-xs leading-relaxed">VP of Pakistani Students in Turkiye. Board Member at Dijital Isletmecilik Kulubu.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-600 text-[10px] tracking-[0.4em] uppercase">
+        © 2026 Muaaz Khan // Engineered for High-Performance
+    </footer>
+
+</body>
+</html>
