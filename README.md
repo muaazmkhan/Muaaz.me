@@ -1,5 +1,5 @@
 # Muaaz.me
-# 🚀 Muaaz Muhammad Khan | Data-Focused Marketing Specialist
+# 🚀 Muaaz Muhammad Khan | Co-Founder & CEO DRESSIA
 ### *Navigating Red Oceans with Data-Precision & Technical Innovation*
 
 Currently deployed as an **Erasmus+ Scholar** at **Universidade da Coruña (UDC), Spain** 🇪🇸. I bridge the gap between complex data analytics and high-conversion marketing strategies.
