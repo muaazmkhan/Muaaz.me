@@ -16,7 +16,7 @@ Currently deployed as an **Erasmus+ Scholar** at **Universidade da Coruña (UDC)
 
 ## 💡 Key Product Deployments
 
-### 👗 [Dressly] - AI Dressing Assistant
+### 👗 [Dressia] - AI Dressing Assistant
 *Logic: Predicting attire based on real-time weather datasets and personal wardrobe inventory.*
 - Built to solve the "choice paradox" in daily planning.
 - Focus: User behavior and data-driven suggestions.
